@@ -1,4 +1,4 @@
-#include<stdio.h>
+﻿#include<stdio.h>
 int main(){
 	double price[10] = {28.9, 32.7, 45.6, 78, 35, 86.2, 27.8, 43, 56, 65};
 	int n = 0;

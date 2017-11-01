@@ -1,8 +1,8 @@
-#include<stdio.h>
+ï»¿#include<stdio.h>
 
 int main(){
 	int n;
-	int a, b, c, d, sum=0; // a(Ç§) b(°Ù) c(Ê®) d(¸ö)
+	int a, b, c, d, sum=0; // a(åƒ) b(ç™¾) c(å) d(ä¸ª)
 	scanf("%d", &n);
 	a = n/1000;
 	b = (n/100) % 10;

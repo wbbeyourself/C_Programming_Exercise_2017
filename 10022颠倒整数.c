@@ -1,24 +1,24 @@
-#include<stdio.h>
+ï»¿#include<stdio.h>
 
 int main(){
 	int n;
-	int a, b, c, d; // a(Ç§) b(°Ù) c(Ê®) d(¸ö)
+	int a, b, c, d; // a(åƒ) b(ç™¾) c(å) d(ä¸ª)
 	int out = 0;
 	scanf("%d", &n);
 	a = n/1000;
 	b = (n/100) % 10;
 	c = (n/10) % 10;
 	d = n % 10;
-	if (n/10 == 0){// 1Î»Êı
+	if (n/10 == 0){// 1ä½æ•°
 		out = n;
 	}
-	else if (n/100 == 0){//2Î»Êı
+	else if (n/100 == 0){//2ä½æ•°
 		out = d * 10 + c;
 	}
-	else if (n / 1000 == 0){//3Î»Êı
+	else if (n / 1000 == 0){//3ä½æ•°
 		out = d * 100 + c * 10 + b;
 	}
-	else{//4Î»Êı
+	else{//4ä½æ•°
 		out = d * 1000 + c * 100 + b * 10 + a;
 	}
 	printf("%d\n", out);

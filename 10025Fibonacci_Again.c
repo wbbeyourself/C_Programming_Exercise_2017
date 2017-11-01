@@ -1,10 +1,10 @@
-#include<stdio.h>
+ï»¿#include<stdio.h>
 
 int main(){
 	int n, k, i;
 	int a = 7, b = 11, next = 0;
 	scanf("%d", &n);// 2 <= n < 1000000
-	k = n - 1;// k ±íÊ¾ÐèÒª½øÐÐ¼¸´ÎÔËËã
+	k = n - 1;// k è¡¨ç¤ºéœ€è¦è¿›è¡Œå‡ æ¬¡è¿ç®—
 	for (i = 0; i < k; ++i){
 		next = a + b;
 		a = b % 3;

@@ -1,13 +1,13 @@
-#include<stdio.h>
+ï»¿#include<stdio.h>
 
-// ×î´ó¹«Ô¼Êı
+// æœ€å¤§å…¬çº¦æ•°
 int gcd(int a, int b){
 	return b ? gcd(b, a%b) : a;
 }
 
-// ×îĞ¡¹«±¶Êı
+// æœ€å°å…¬å€æ•°
 int lcm(int a, int b){
-	return (a * b) / gcd(a, b);  // Èç¹ûa, bÌØ±ğ´ó£¬ ÕâÖÖĞ´·¨»áÔì³ÉÒç³ö
+	return (a * b) / gcd(a, b);  // å¦‚æœa, bç‰¹åˆ«å¤§ï¼Œ è¿™ç§å†™æ³•ä¼šé€ æˆæº¢å‡º
 }
 
 int main(){
